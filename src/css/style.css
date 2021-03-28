@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merienda&family=Merriweather:wght@300&family=Ubuntu:wght@300&display=swap");
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  background-color: black;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+.inputTag {
+  width: 52% !important;
+  /* border-bottom-right-radius: 0 !important; */
+  /* border-top-right-radius: 0 !important; */
+  font-family: "IBM Plex Sans", sans-serif !important;
+  color: black;
+  font-weight: 600;
+  margin-right: 12px !important;
+}
+
+.form .btn {
+  padding: 8px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.gifs {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif {
+  margin-right: 40px;
+}
+
+.loader {
+  color: #e2e3cc;
+  width: 100%;
+}
+.row {
+  width: auto;
+  padding: 8% 0;
+}
+
+.images {
+  width: 266px;
+  height: 252px;
+  padding: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .row {
+    margin-right: 0;
+  }
+  .gif {
+    margin-right: 0;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .gif {
+    margin-right: 244px;
+    padding: 3% 6%;
+  }
+  .images{
+    width: 342px;
+    height: 341px;
+  }
+}
